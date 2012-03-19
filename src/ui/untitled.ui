@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Fbaraja</class>
+ <widget class="QWidget" name="Fbaraja">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>736</width>
+    <height>499</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QTableWidget" name="twclasificacion">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>-10</y>
+     <width>321</width>
+     <height>501</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QGraphicsView" name="gvimagen">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>-10</y>
+     <width>256</width>
+     <height>192</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="ltexto">
+   <property name="geometry">
+    <rect>
+     <x>336</x>
+     <y>300</y>
+     <width>301</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pbgenerar">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>390</y>
+     <width>93</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Generar</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
