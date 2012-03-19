@@ -3,4 +3,4 @@ Created on 19/03/2012
 
 @author: piter
 '''
-print "Hola Mundo"
+print "Hola Tu"
